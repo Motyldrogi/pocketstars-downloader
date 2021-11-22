@@ -5,8 +5,11 @@
 ## Installation
 * Download and install python https://www.python.org/downloads/
 * Download the program <a href="https://github.com/Motyldrogi/pocketstars-downloader/archive/refs/heads/main.zip" target="_blank">here</a> and unzip it to a folder.
-* Edit the `.env` file and replace the `session` and `session.sig` cookies. [Click here for tutorial](cookie-tutorial.jpg)
+* Edit the `.env` file and replace the `session` and `session.sig` cookies. [Click here for tutorial](github/cookie-tutorial.jpg)
 * Start the program (On Windows with the start.bat)
+
+## Preview
+![Preview](github/preview.jpg)
 
 ## Notice:
 * You need to be subscribed to the pocketstars.com creator.
