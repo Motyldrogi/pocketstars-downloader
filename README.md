@@ -19,6 +19,7 @@
 ## Features:
 * Download pocketstars.com videos.
 * Download pocketstars.com images.
+* Skipping already downloaded files.
 
 
 ## Disclaimer:
