@@ -217,7 +217,7 @@ def download_videos():
 def init():
     print(f"PocketStars Downloader\n")
     global CREATOR 
-    CREATOR = input("Username: ")
+    CREATOR = input("Username of creator: ")
     global SAVE_PATH
     SAVE_PATH = f"./{CREATOR}/"
 
