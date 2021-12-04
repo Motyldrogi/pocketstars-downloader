@@ -143,8 +143,6 @@ def save_file(url, offset, counter, path_suffix):
 
     file_name = url.rsplit('/', 1)[1].rsplit('?', 1)[0]
     if not os.path.isfile(path + file_name):
-        f = open(path + file_name, 'wb')
-    
         with urllib.request.urlopen(url) as resp:
             length = resp.getheader('content-length')
             block_size = 1000000
@@ -165,7 +163,8 @@ def save_file(url, offset, counter, path_suffix):
                 if length:
                     percent = int((size / length) * 100)
                     progress(percent)
-    
+            
+            f = open(path + file_name, 'wb')
             f.write(buffer_all.getvalue())
             endProgress()
             f.close()

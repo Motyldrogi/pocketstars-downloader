@@ -1,2 +1,2 @@
-py -m pip install -r requirements.txt  --user
-py downloader.py
+python -m pip install -r requirements.txt  --user
+python downloader.py
